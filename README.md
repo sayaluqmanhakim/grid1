@@ -7,18 +7,50 @@
 </head>
 <body>
 
-<div class="parent">
-<div class="div1"> </div>
-<div class="div2"> </div>
-<div class="div3"> </div>
-<div class="div4"> </div>
-<div class="div5"> </div>
-<div class="div6"> </div>
-<div class="div7"> </div>
-<div class="div8"> </div>
-<div class="div9"> </div>
-</div>
-  	
+<div class="redbox margin3 arial ">
+	<div class="parent">
+		<div class="div1">
+			<div class="redbox margin3 arial centre">
+            <h1>London</h1>
+            </div>
+            </div>
+            
+		<div class="div2">
+			<div class="blackbox margin3 arial centre">
+            <h1>London</h1>
+            </div>
+            </div>
+        
+        <div class="div3">
+			<div class="blackbox margin3 arial centre">
+            <h1>London</h1>
+            </div>
+            </div>
+            
+        <div class="div4">
+			<div class="blackbox margin3 arial centre">
+            <h1>London</h1>
+            </div>
+            </div>
+        
+        <div class="div5">
+			<div class="blackbox margin3 arial centre">
+            <h1>London</h1>
+            </div>
+            </div>
+        
+        <div class="div6">
+			<div class="blackbox margin3 arial centre">
+            <h1>London</h1>
+            </div>
+            </div>
+        
+		<div class="div7"> </div>
+		<div class="div8"> </div>
+		<div class="div9"> </div>
+			</div>
+			</div>
+	  	
 <div class="redbox margin arial ">
 
         <div class="blackbox margin2 arial centre">
@@ -43,8 +75,8 @@
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(3, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+grid-column-gap: 4px;
+grid-row-gap: 4px;
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 2; }
@@ -81,8 +113,8 @@ grid-row-gap: 0px;
 		    }
 		
 		    .margin3 {
-		        margin: 10px;
-		        padding: 10px;
+		        margin: 0px;
+		        padding: 6px;
 		    }
 		
 		
